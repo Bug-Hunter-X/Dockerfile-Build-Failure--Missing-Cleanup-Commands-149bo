@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles: forgetting to clean up after package installations.  The original Dockerfile fails because of uncleaned packages, leading to a large image size and potential build errors. The solution shows how to use `apt-get clean` and `apt-get autoremove` to resolve this issue.
